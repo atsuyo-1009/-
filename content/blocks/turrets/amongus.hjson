@@ -13,16 +13,15 @@ liquidCapacity: 50
 itemCapacity: 50
 hasItem: true
 itemCapacity: 30
-
 reload: 5
 chargeTime: 0
 range: 160
 recoil: 0.5
 inaccuracy: 2
 xRand: 1
-
 ammoTypes: {
   copper: {
+bullet[
     type: basicBulletType
     width: 5
     drawsize: 3
@@ -30,10 +29,8 @@ ammoTypes: {
     bulletSprite: 
     frontColor: 653200
     backColor: 653200
-
     ammoMultiPlier: 5
     reloadMultiPlier: 10
-
     lifetime: 80
     speed: 2
     weaveMag: 5
@@ -43,7 +40,8 @@ ammoTypes: {
     hitEffect: none
     absorbable: true
     pierceArmor: false
-  }
+ ] 
+}
 }
 BuildVisibillity: shown
 buildTime: 80
