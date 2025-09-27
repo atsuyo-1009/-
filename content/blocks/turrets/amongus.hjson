@@ -10,7 +10,7 @@ targetAir: false
 hasPower: false
 hasLiquid: false
 liquidCapacity: 0
-itemCapacity: 0
+itemCapacity: 100
 hasItem: true
 reload: 10000000
 range: 1000
