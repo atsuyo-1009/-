@@ -1,39 +1,39 @@
-name: 〇〇
+name: amoasu
 description: "説明"
-type: itemTurret　itemturretの他にもいろいろな種類がある。
+type: itemTurret　
 category: turret
 size: 1
-health: お好み
-targetable: 基本的にtrue
-squareSprites: 基本的に気にならないならfalseでいい。
-targetAir: 対空射撃ができるかtrue or false
-hasPower: 電気はいるかtrue or false
-hasLiquid: 液体を使うか。true or false
-liquidCapacity: 液体の容量。数字で
-itemCapacity: アイテムの容量。数字で
-hasItem: アイテムを使うか。true or false
-reload: リロードにかかる時間。数字で
-range: 射程範囲。数字で
-recoil: どれだけブレるか。数字で　小数点第一位での数字がいい。１とかにするとめっちゃブレる。
-inaccuracy: recoilと同じ。
-xRand: 不明。
+health: 100000000000000000000000000000000000
+targetable:true
+squareSprites: false
+targetAir: false
+hasPower: false
+hasLiquid: false
+liquidCapacity: 0
+itemCapacity: 0
+hasItem: true
+reload: 10000000
+range: 1000
+recoil: 0.2
+inaccuracy: 0.2
+xRand: 1
 
 ammoTypes: {
   tarretAmmo: {
-    type: basicBulletType　この他にも色々とある
-    width: 弾の大きさ。数字で。
-    drawsize: 弾の大きさ。数字で。
-    hitSize: 着弾時の大きさ。数字で
+    type: basicBulletType　
+    width: 1
+    drawsize:1
+    hitSize: 100
     bulletSprite: 
-    frontColor: 653200　弾の色。カラーコードで持ってこよう。
-    backColor: 653200　同じ
+    frontColor: 653200　
+    backColor: 653200
 
-    ammoMultiPlier: 1　一度に発射するたまの数。ショットガンにもできちゃう。
-    reloadMultiPlier: 1　一発にどれだけリロードするか。５とかにして弾薬効率を悪くもできちゃう。
+    ammoMultiPlier: 100
+    reloadMultiPlier: 10
 
-    lifetime: 80　弾の存在できる時間。
-    speed: 2　弾のスピード。lifetime×speed÷8が有効射程。上のとは全く別の設定。
-    damage: 30　ダメージ量。
+    lifetime: 80　
+    speed: 90　
+    damage: 80　
     hitEffect: none　変えなくてもいい。
     absorbable: true　不明。変えなくていい。
     pierceArmor: false　貫通弾にするかどうか。
