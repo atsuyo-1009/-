@@ -1,24 +1,28 @@
-name: amoasu
-description: "説明"
-type: itemTurret　
+name: HK256短機関銃
+description: "歩兵に効果的な機関銃。戦車に使うのはいい案ではありません。"
+type: itemTurret
 category: turret
 size: 1
-health: 100000000000000000000000000000000000
-targetable:true
+health: 80
+targetable: true
 squareSprites: false
 targetAir: false
 hasPower: false
-hasLiquid: false
-liquidCapacity: 0
-itemCapacity: 100
+hasLiquid: true
+liquidCapacity: 50
+itemCapacity: 50
 hasItem: true
-reload: 10000000
-range: 1000
-recoil: 0.2
-inaccuracy: 0.2
+itemCapacity: 30
+
+reload: 5
+chargeTime: 0
+range: 160
+recoil: 0.5
+inaccuracy: 2
 xRand: 1
+
 ammoTypes: {
-  tarretAmmo: {
+  copper: {
     type: basicBulletType
     width: 5
     drawsize: 3
@@ -41,15 +45,13 @@ ammoTypes: {
     pierceArmor: false
   }
 }
-BuildVisibillity: shown　
-buildTime: 1000
+BuildVisibillity: shown
+buildTime: 80
     
 research: {
-    parent: duo　
+    parent: duo
     requirements: [
-      copper/ 30
-      copper/ 40
-    
+      copper/ 3
 ]
 }
 requirements: [
