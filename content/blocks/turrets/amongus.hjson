@@ -31,15 +31,15 @@ ammoTypes: {
     frontColor: 653200
     backColor: 653200
 
-    ammoMultiPlier: 1
-    reloadMultiPlier: 1
+    ammoMultiPlier: 100 
+    reloadMultiPlier: 10
 
     lifetime: 80
     speed: 2
     weaveMag: 1
     weaveScale: 7 
     bulletShrink: 0
-    damage: 30
+    damage: 300000
     hitEffect: none
     absorbable: true
     pierceArmor: false
