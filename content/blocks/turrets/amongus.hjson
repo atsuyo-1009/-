@@ -19,7 +19,7 @@ inaccuracy: 0.2
 xRand: 1
 
 ammoTypes: {
-  tarretAmmo: {
+  copper: {
     type: basicBulletType　
     width: 1
     drawsize:1
