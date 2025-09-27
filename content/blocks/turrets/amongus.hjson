@@ -21,7 +21,6 @@ inaccuracy: 2
 xRand: 1
 ammoTypes: {
   copper: {
-bullet:{
     type: basicBulletType
     width: 5
     drawsize: 3
@@ -41,7 +40,6 @@ bullet:{
     absorbable: true
     pierceArmor: false
  } 
-}
 }
 BuildVisibillity: shown
 buildTime: 80
