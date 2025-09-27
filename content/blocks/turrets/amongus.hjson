@@ -1,4 +1,4 @@
-name: HK256短機関銃
+name: HK256短機
 description: "歩兵に効果的な機関銃。戦車に使うのはいい案ではありません。"
 type: itemTurret
 category: turret
@@ -31,15 +31,15 @@ ammoTypes: {
     frontColor: 653200
     backColor: 653200
 
-    ammoMultiPlier: 100 
+    ammoMultiPlier: 5
     reloadMultiPlier: 10
 
     lifetime: 80
     speed: 2
-    weaveMag: 1
+    weaveMag: 5
     weaveScale: 7 
     bulletShrink: 0
-    damage: 300000
+    damage: 300
     hitEffect: none
     absorbable: true
     pierceArmor: false
