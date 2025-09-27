@@ -1,0 +1,55 @@
+name: 〇〇
+description: "説明"
+type: itemTurret　itemturretの他にもいろいろな種類がある。
+category: turret
+size: 1
+health: お好み
+targetable: 基本的にtrue
+squareSprites: 基本的に気にならないならfalseでいい。
+targetAir: 対空射撃ができるかtrue or false
+hasPower: 電気はいるかtrue or false
+hasLiquid: 液体を使うか。true or false
+liquidCapacity: 液体の容量。数字で
+itemCapacity: アイテムの容量。数字で
+hasItem: アイテムを使うか。true or false
+reload: リロードにかかる時間。数字で
+range: 射程範囲。数字で
+recoil: どれだけブレるか。数字で　小数点第一位での数字がいい。１とかにするとめっちゃブレる。
+inaccuracy: recoilと同じ。
+xRand: 不明。
+
+ammoTypes: {
+  tarretAmmo: {
+    type: basicBulletType　この他にも色々とある
+    width: 弾の大きさ。数字で。
+    drawsize: 弾の大きさ。数字で。
+    hitSize: 着弾時の大きさ。数字で
+    bulletSprite: 
+    frontColor: 653200　弾の色。カラーコードで持ってこよう。
+    backColor: 653200　同じ
+
+    ammoMultiPlier: 1　一度に発射するたまの数。ショットガンにもできちゃう。
+    reloadMultiPlier: 1　一発にどれだけリロードするか。５とかにして弾薬効率を悪くもできちゃう。
+
+    lifetime: 80　弾の存在できる時間。
+    speed: 2　弾のスピード。lifetime×speed÷8が有効射程。上のとは全く別の設定。
+    damage: 30　ダメージ量。
+    hitEffect: none　変えなくてもいい。
+    absorbable: true　不明。変えなくていい。
+    pierceArmor: false　貫通弾にするかどうか。
+  }
+}
+BuildVisibillity: shown　変えなくていい。
+buildTime: 80　建築にかかる時間。
+    
+research: {
+    parent: duo　研究時のつながってる親は何か。
+    requirements: [
+      copper/ 30
+      IronPlate/ 40
+      IronIngot/ 25　素材と数。
+]
+}
+requirements: [
+      copper/ 10
+      IronPlate/ 20]建築に使う素材と数。
