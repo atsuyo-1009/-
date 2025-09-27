@@ -46,10 +46,9 @@ research: {
     parent: duo　
     requirements: [
       copper/ 30
-      IronPlate/ 40
-      IronIngot/ 25　
+      copper/ 40
+    
 ]
 }
 requirements: [
-      copper/ 10
-      IronPlate/ 20]
+      copper/ 10]
