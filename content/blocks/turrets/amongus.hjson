@@ -21,7 +21,7 @@ inaccuracy: 2
 xRand: 1
 ammoTypes: {
   copper: {
-bullet:{[
+bullet:[{
     type: basicBulletType
     width: 5
     drawsize: 3
@@ -40,7 +40,8 @@ bullet:{[
     hitEffect: none
     absorbable: true
     pierceArmor: false
- ] 
+ }
+] 
 }
 }
 }
