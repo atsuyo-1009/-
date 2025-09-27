@@ -34,22 +34,22 @@ ammoTypes: {
     lifetime: 80　
     speed: 90　
     damage: 80　
-    hitEffect: none　変えなくてもいい。
-    absorbable: true　不明。変えなくていい。
-    pierceArmor: false　貫通弾にするかどうか。
+    hitEffect: none　
+    absorbable: true　
+    pierceArmor: true
   }
 }
-BuildVisibillity: shown　変えなくていい。
-buildTime: 80　建築にかかる時間。
+BuildVisibillity: shown　
+buildTime: 1000
     
 research: {
-    parent: duo　研究時のつながってる親は何か。
+    parent: duo　
     requirements: [
       copper/ 30
       IronPlate/ 40
-      IronIngot/ 25　素材と数。
+      IronIngot/ 25　
 ]
 }
 requirements: [
       copper/ 10
-      IronPlate/ 20]建築に使う素材と数。
+      IronPlate/ 20]
