@@ -18,7 +18,7 @@ chargeTime: 0
 range: 160
 recoil: 0.5
 inaccuracy: 2
-xRand: 1
+xRand: 0
 ammoTypes: {
   copper: {
     type: basicBulletType
@@ -28,12 +28,12 @@ ammoTypes: {
     bulletSprite: 
     frontColor: 653200
     backColor: 653200
-    ammoMultiPlier: 5
+    ammoMultiPlier: 10
     reloadMultiPlier: 10
     lifetime: 80
     speed: 2
-    weaveMag: 5
-    weaveScale: 7 
+    weaveMag: 0
+    weaveScale: 0
     bulletShrink: 0
     damage: 300
     hitEffect: none
