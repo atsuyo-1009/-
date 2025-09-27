@@ -17,26 +17,28 @@ range: 1000
 recoil: 0.2
 inaccuracy: 0.2
 xRand: 1
-
 ammoTypes: {
-  copper: {
-    type: basicBulletType　
-    width: 1
-    drawsize:1
-    hitSize: 100
+  tarretAmmo: {
+    type: basicBulletType
+    width: 5
+    drawsize: 3
+    hitSize: 3
     bulletSprite: 
-    frontColor: 653200　
+    frontColor: 653200
     backColor: 653200
 
-    ammoMultiPlier: 100
-    reloadMultiPlier: 10
+    ammoMultiPlier: 1
+    reloadMultiPlier: 1
 
-    lifetime: 80　
-    speed: 90　
-    damage: 80　
-    hitEffect: none　
-    absorbable: true　
-    pierceArmor: true
+    lifetime: 80
+    speed: 2
+    weaveMag: 1
+    weaveScale: 7 
+    bulletShrink: 0
+    damage: 30
+    hitEffect: none
+    absorbable: true
+    pierceArmor: false
   }
 }
 BuildVisibillity: shown　
