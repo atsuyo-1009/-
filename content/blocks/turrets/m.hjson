@@ -1,0 +1,43 @@
+name: 〇〇
+description: 
+"説明"
+  type: itemTurret　この他にタイプがある
+category: turret
+size: 1
+  health:  体力
+  targetable: true　変えなくていい。
+  squareSprites: false　変えなくていい。
+  targetAir: false　対空できるか。
+  hasPower: false　電気を使うか
+  hasLiquid: true　液体を使うか
+  liquidCapacity: 50　液体のキャパシティ
+  itemCapacity: 50　アイテムのキャパシティ
+  hasItem: true　アイテムを使うか
+  reload: 5　連射力
+  chargeTime: 0　おそらくレーザー系
+  range: 160　有効射程
+  recoil: 0.5　ブレるか
+  inaccuracy: 2　同じくブレるか
+  xRand: 0　拡散力
+  ammoTypes: 
+{
+  copper: {　copperとなっているところは好きなように変えていい。
+  type: basicBulletType　この他にもタイプが有る。
+  width: 5　弾のサイズ？
+  drawsize: 3　弾のサイズ？
+  hitSize: 3　当たったときのサイズ？
+  bulletSprite:　弾のスプライトを書けばいいと思う
+  frontColor: 653200　
+  変えなくていい
+  backColor: 653200　変えなくていい
+  ammoMultiPlier: 10　不明
+  reloadMultiPlier: 10　不明
+  lifetime: 80　弾の存在する時間
+  speed: 2　弾のスピード　lifetime×speed÷8で射程。
+  weaveMag: 0どんだけグニャるか
+  weaveScale: 0グニャる大きさ
+  bulletShrink: 0　不明
+damage: 300　ダメージ
+hitEffect: none　当てたときのエフェクト
+absorbable: true　不明pierceArmor: false　貫通するか}}BuildVisibillity: shown建築時に建築するところか見えるかbuildTime: 80建てるときの時間
+research: {parent: duo　研究の親となるところrequirements: [copper/ 3　研究材料]}requirements: [copper/ 10]　建築、建築するときの資材
